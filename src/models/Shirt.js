@@ -11,7 +11,7 @@ const shirtSchema = new mongoose.Schema(
         valorCusto: {type: Number, required: true},
     }
 );
-
+//
 const shirts = mongoose.model('shirts', shirtSchema);
 
 export default shirts;
